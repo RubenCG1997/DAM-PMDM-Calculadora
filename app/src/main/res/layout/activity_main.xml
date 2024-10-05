@@ -29,9 +29,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="@color/etv_PrimerNúmero"
+            android:backgroundTint="@color/txt_PrimerNúmero"
             android:ems="10"
-            android:hint="@string/etv_PrimerNúmero"
+            android:hint="@string/txt_PrimerNúmero"
             android:inputType="numberSigned"
             android:textAlignment="textEnd" />
     </LinearLayout>
@@ -56,9 +56,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="@color/etv_SegundoNúmero"
+            android:backgroundTint="@color/txt_SegundoNúmero"
             android:ems="10"
-            android:hint="@string/etv_SegundoNúmero"
+            android:hint="@string/txt_SegundoNúmero"
             android:inputType="numberSigned"
             android:textAlignment="textEnd" />
     </LinearLayout>
@@ -69,7 +69,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/economica"
         android:gravity="center"
-        android:textColor="@color/tv_Resultado"
+        android:textColor="@color/txt_Resultado"
         android:textSize="96sp" />
 
     <LinearLayout
