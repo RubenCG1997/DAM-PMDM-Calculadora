@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="lbl_etiqueta1">Número 1:</string>
+    <string name="txt_PrimerNúmero">Introduzca un número</string>
+    <string name="lbl_etiqueta2">Número 2:</string>
+    <string name="txt_SegundoNúmero">Introduzca un número</string>
+    <string name="btn_Suma">+</string>
+    <string name="btn_Resta">-</string>
+    <string name="btn_Multiplicacion">x</string>
+    <string name="btn_Division">/</string>
+    <string name="btn_Borrar">BORRAR</string>
+    <string name="Error">ERROR!</string>
+</resources>

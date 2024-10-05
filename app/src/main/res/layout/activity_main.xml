@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LayoutPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/LayoutPrimerNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lbl_etiqueta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/lbl_etiqueta1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etv_PrimerNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/etv_PrimerNúmero"
+            android:ems="10"
+            android:hint="@string/etv_PrimerNúmero"
+            android:inputType="numberSigned"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutSegundoNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lbl_SegundoNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/lbl_etiqueta2"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etv_SegundoNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/etv_SegundoNúmero"
+            android:ems="10"
+            android:hint="@string/etv_SegundoNúmero"
+            android:inputType="numberSigned"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/economica"
+        android:gravity="center"
+        android:textColor="@color/tv_Resultado"
+        android:textSize="96sp" />
+
+    <LinearLayout
+        android:id="@+id/LayoutBotonera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_Suma"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="@color/btn_Suma"
+            android:fontFamily="@font/adlam_display"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btn_Suma"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btn_Resta"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="@color/btn_Resta"
+            android:fontFamily="@font/adlam_display"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btn_Resta"
+            android:textSize="30dp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/btn_Multiplicacion"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="@color/btn_Multiplicacion"
+            android:fontFamily="@font/adlam_display"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btn_Multiplicacion"
+            android:textSize="30dp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/btn_Division"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="@color/btn_Division"
+            android:fontFamily="@font/adlam_display"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btn_Division"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_Borrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/btn_Borrar"
+        android:text="@string/btn_Borrar"
+        android:textSize="24sp"
+        app:cornerRadius="0dp" />
+</LinearLayout>
